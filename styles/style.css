@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+}
+
+/* common shared style */
+.btn-primary{
+color: #0075C5;
+font-size: 20px;
+font-weight: 600;
+padding: 20px 25px;
+border: 0;
+border-radius: 5px;
+
+}
+
+
+/* body related styles */
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* header related styles */
+.header{
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+
+}
+
+.header-description{
+    width: 500px;
+    text-align: right;
+    padding: 200px 230px 200px 840px;
+}
+.header-description h1{
+    color:white;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+    
+}
+.header-description p{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+/* main related styles */
+main section{
+    max-width: 1900px;
+    margin: 130px 200px;
+
+}
+
+/* sectionA related styles */
+.sectionA{
+    
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+}
+
+.person,list-container{
+    width: 50%;
+}
+
+.list-container-title{
+    color:black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.list-container-description,.list-container li{
+    color: rgb(27, 32, 36);
+
+}
+.list-container-description{
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.list-container li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+/*sectionB related styles  */
+.title{
+    color:black;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans{
+display: flex;
+justify-content: space-around;
+
+}
+
+.plan img{
+    margin: 24px 60px;
+}
+.plan-title{
+    color:black;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.plan-description{
+    color:#7E7E7E;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.sub-sectionB{
+    background: url("../images/gradient1.png"),url("../images/watch.png");
+
+}
+
+.bg-title{
+    
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    max-width: 450px;
+    padding: 60px 0px 24px 60px;
+}
+
+#btn{
+    margin: 0px 0px 60px 60px;
+}
+
+/* footer related styles */
+footer{
+    background-color: #000;
+    color: white;
+    display: flex;
+    gap: 300px;
+    max-width: 1900px;
+    padding: 130px 230px;
+
+    
+}
+
+.footer-column{
+    width: 50%;
+}
+.footer-column-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer-column-descripion{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+}
+
+
+footer img{
+    width: 35px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.column-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#box{
+    padding: 17px;
+    width: 100%;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #766969;
+    margin-bottom: 16px;
+    color: white;
+}
+.button{
+    border-radius: 8px;
+    background: rgb(0, 95, 172);
+    color:white;
+    padding: 15px 25px;
+    font-weight: bold;
+}
