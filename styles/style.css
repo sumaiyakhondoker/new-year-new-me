@@ -87,6 +87,9 @@ main section{
     margin-bottom: 8px;
 }
 
+.fa-solid{
+    color: lightgreen;
+}
 /*sectionB related styles  */
 .title{
     color:black;
